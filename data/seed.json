@@ -1,0 +1,144 @@
+{
+  "clients": [
+    { "id": "c1", "name": "Maria Lopez", "company": "Sunrise Bakery", "email": "maria@example.com" },
+    { "id": "c2", "name": "Sam Carter", "company": "Carter Plumbing", "email": "sam@example.com" },
+    { "id": "c3", "name": "Priya Shah", "company": "Bright Yoga Studio", "email": "priya@example.com" },
+    { "id": "c4", "name": "Tom Nguyen", "company": "Nguyen Auto Repair", "email": "tom@example.com" },
+    { "id": "c5", "name": "Lena Ortiz", "company": "Ortiz Flower Shop", "email": "lena@example.com" },
+    { "id": "c6", "name": "Jon Reyes", "company": "Reyes Dog Grooming", "email": "jon@example.com" }
+  ],
+  "invoices": [
+    {
+      "id": "1001", "number": "INV-0001", "clientId": "c1", "issueDate": "2026-08-01", "dueDate": "2026-08-31",
+      "items": [
+        { "description": "Website refresh", "qty": 1, "unitPrice": 1200 },
+        { "description": "Menu photos", "qty": 3, "unitPrice": 85.5 }
+      ],
+      "taxRate": 7, "discount": 0, "status": "paid", "paidAt": "2026-08-20", "recurring": "none"
+    },
+    {
+      "id": "1002", "number": "INV-0002", "clientId": "c2", "issueDate": "2026-09-01", "dueDate": "2026-09-30",
+      "items": [
+        { "description": "Booking page setup", "qty": 1, "unitPrice": 650 },
+        { "description": "Monthly support", "qty": 2, "unitPrice": 120 }
+      ],
+      "taxRate": 7, "discount": 50, "status": "sent", "paidAt": "", "recurring": "none"
+    },
+    {
+      "id": "1003", "number": "INV-0003", "clientId": "c3", "issueDate": "2026-10-10", "dueDate": "2026-11-09",
+      "items": [
+        { "description": "Class schedule widget", "qty": 1, "unitPrice": 480 }
+      ],
+      "taxRate": 6.5, "discount": 0, "status": "sent", "paidAt": "", "recurring": "monthly"
+    },
+    {
+      "id": "1004", "number": "INV-0003", "clientId": "c4", "issueDate": "2026-10-15", "dueDate": "2026-11-14",
+      "items": [
+        { "description": "Parts inventory spreadsheet", "qty": 4, "unitPrice": 75 },
+        { "description": "Training call (hours)", "qty": 1.5, "unitPrice": 90 }
+      ],
+      "taxRate": 7, "discount": 0, "status": "draft", "paidAt": "", "recurring": "none"
+    },
+    {
+      "id": "1005", "number": "INV-0004", "clientId": "c1", "issueDate": "2026-10-20", "dueDate": "2026-11-19",
+      "items": [
+        { "description": "Online order form", "qty": 1, "unitPrice": 0.1 },
+        { "description": "Cake topper design", "qty": 3, "unitPrice": 0.2 }
+      ],
+      "taxRate": 7, "discount": 0, "status": "sent", "paidAt": "", "recurring": "none"
+    },
+    {
+      "id": "1006", "number": "INV-0005", "clientId": "c3", "issueDate": "2026-09-05", "dueDate": "2026-10-05",
+      "items": [
+        { "description": "Booking form setup", "qty": 1, "unitPrice": 900 },
+        { "description": "Training call (hours)", "qty": 2, "unitPrice": 90 }
+      ],
+      "taxRate": 6.5, "discount": 0, "status": "paid", "paidAt": "2026-09-18", "recurring": "none"
+    },
+    {
+      "id": "1007", "number": "INV-0006", "clientId": "c2", "issueDate": "2026-10-02", "dueDate": "2026-11-01",
+      "items": [
+        { "description": "Customer list cleanup", "qty": 1, "unitPrice": 1450 }
+      ],
+      "taxRate": 7, "discount": 0, "status": "paid", "paidAt": "2026-10-14", "recurring": "none"
+    },
+    {
+      "id": "1008", "number": "INV-0007", "clientId": "c5", "issueDate": "2026-09-12", "dueDate": "2026-10-12",
+      "items": [
+        { "description": "Shop website refresh", "qty": 1, "unitPrice": 950 },
+        { "description": "Seasonal photos", "qty": 4, "unitPrice": 60 }
+      ],
+      "taxRate": 7, "discount": 0, "status": "paid", "paidAt": "2026-09-28", "recurring": "none"
+    },
+    {
+      "id": "1009", "number": "INV-0008", "clientId": "c5", "issueDate": "2026-10-05", "dueDate": "2026-10-19",
+      "items": [
+        { "description": "Wedding order form", "qty": 1, "unitPrice": 380 }
+      ],
+      "taxRate": 7, "discount": 0, "status": "sent", "paidAt": "", "recurring": "none"
+    },
+    {
+      "id": "1010", "number": "INV-0009", "clientId": "c6", "issueDate": "2026-10-08", "dueDate": "2026-11-07",
+      "items": [
+        { "description": "Booking calendar setup", "qty": 1, "unitPrice": 720 },
+        { "description": "Training call (hours)", "qty": 1, "unitPrice": 90 }
+      ],
+      "taxRate": 7, "discount": 0, "status": "paid", "paidAt": "2026-10-22", "recurring": "none"
+    },
+    {
+      "id": "1011", "number": "INV-0010", "clientId": "c6", "issueDate": "2026-10-24", "dueDate": "2026-11-23",
+      "items": [
+        { "description": "Monthly support", "qty": 1, "unitPrice": 150 }
+      ],
+      "taxRate": 7, "discount": 0, "status": "sent", "paidAt": "", "recurring": "none"
+    },
+    {
+      "id": "1012", "number": "INV-0011", "clientId": "c2", "issueDate": "2026-08-10", "dueDate": "2026-09-09",
+      "items": [
+        { "description": "Quote template", "qty": 1, "unitPrice": 540 }
+      ],
+      "taxRate": 7, "discount": 0, "status": "paid", "paidAt": "2026-08-30", "recurring": "none"
+    }
+  ],
+  "categories": [
+    { "id": "cat1", "name": "Software", "monthlyBudget": 300 },
+    { "id": "cat2", "name": "Rent", "monthlyBudget": 1500 },
+    { "id": "cat3", "name": "Payroll", "monthlyBudget": 3000 },
+    { "id": "cat4", "name": "Marketing", "monthlyBudget": 400 },
+    { "id": "cat5", "name": "Meals", "monthlyBudget": 250 },
+    { "id": "cat6", "name": "Supplies", "monthlyBudget": 200 },
+    { "id": "cat7", "name": "Travel", "monthlyBudget": 300 },
+    { "id": "cat8", "name": "Taxes", "monthlyBudget": 500 }
+  ],
+  "expenses": [
+    { "id": "e23", "date": "2026-08-01", "vendor": "Palm Court Property Demo", "categoryId": "cat2", "amount": 1500, "paymentMethod": "Bank transfer", "note": "August rent", "recurring": false },
+    { "id": "e24", "date": "2026-08-03", "vendor": "Cloud Hosting Co", "categoryId": "cat1", "amount": 89.99, "paymentMethod": "Card", "note": "Server plan", "recurring": false },
+    { "id": "e25", "date": "2026-08-12", "vendor": "Sunrise Office Supply", "categoryId": "cat6", "amount": 52.4, "paymentMethod": "Card", "note": "Folders and labels", "recurring": false },
+    { "id": "e26", "date": "2026-08-15", "vendor": "Fake Payroll Services", "categoryId": "cat3", "amount": 2800, "paymentMethod": "Bank transfer", "note": "Two part-time workers", "recurring": false },
+    { "id": "e27", "date": "2026-08-18", "vendor": "Taco Corner", "categoryId": "cat5", "amount": 33.2, "paymentMethod": "Card", "note": "Team lunch", "recurring": false },
+    { "id": "e28", "date": "2026-08-20", "vendor": "Beachside Print Shop", "categoryId": "cat4", "amount": 150, "paymentMethod": "Card", "note": "Business cards", "recurring": false },
+    { "id": "e1", "date": "2026-09-01", "vendor": "Palm Court Property Demo", "categoryId": "cat2", "amount": 1500, "paymentMethod": "Bank transfer", "note": "September rent", "recurring": false },
+    { "id": "e2", "date": "2026-09-03", "vendor": "Cloud Hosting Co", "categoryId": "cat1", "amount": 89.99, "paymentMethod": "Card", "note": "Server plan", "recurring": false },
+    { "id": "e3", "date": "2026-09-05", "vendor": "Sunrise Office Supply", "categoryId": "cat6", "amount": 74.3, "paymentMethod": "Card", "note": "Paper and pens", "recurring": false },
+    { "id": "e4", "date": "2026-09-10", "vendor": "Beachside Print Shop", "categoryId": "cat4", "amount": 210, "paymentMethod": "Card", "note": "Flyers", "recurring": false },
+    { "id": "e5", "date": "2026-09-15", "vendor": "Fake Payroll Services", "categoryId": "cat3", "amount": 2800, "paymentMethod": "Bank transfer", "note": "Two part-time workers", "recurring": false },
+    { "id": "e6", "date": "2026-09-20", "vendor": "Taco Corner", "categoryId": "cat5", "amount": 46.75, "paymentMethod": "Card", "note": "Client lunch", "recurring": false },
+    { "id": "e7", "date": "2026-09-25", "vendor": "Gulfstream Air Demo", "categoryId": "cat7", "amount": 238.4, "paymentMethod": "Card", "note": "Flight to a trade show", "recurring": false },
+    { "id": "e8", "date": "2026-09-30", "vendor": "Example State Tax Office", "categoryId": "cat8", "amount": 450, "paymentMethod": "Bank transfer", "note": "Quarterly estimate", "recurring": false },
+    { "id": "e9", "date": "2026-10-01", "vendor": "Palm Court Property Demo", "categoryId": "cat2", "amount": 1500, "paymentMethod": "Bank transfer", "note": "October rent", "recurring": false },
+    { "id": "e10", "date": "2026-10-03", "vendor": "Cloud Hosting Co", "categoryId": "cat1", "amount": 89.99, "paymentMethod": "Card", "note": "Server plan", "recurring": false },
+    { "id": "e11", "date": "2026-10-04", "vendor": "Pixel Tools Example", "categoryId": "cat1", "amount": 54, "paymentMethod": "Card", "note": "Design app", "recurring": true },
+    { "id": "e12", "date": "2026-10-08", "vendor": "Sunrise Office Supply", "categoryId": "cat6", "amount": 128.6, "paymentMethod": "Card", "note": "Printer ink", "recurring": false },
+    { "id": "e13", "date": "2026-10-12", "vendor": "AdSpark Demo Ads", "categoryId": "cat4", "amount": 380, "paymentMethod": "Card", "note": "Search ads", "recurring": false },
+    { "id": "e14", "date": "2026-10-15", "vendor": "Fake Payroll Services", "categoryId": "cat3", "amount": 2950, "paymentMethod": "Bank transfer", "note": "Two part-time workers", "recurring": false },
+    { "id": "e15", "date": "2026-10-16", "vendor": "Taco Corner", "categoryId": "cat5", "amount": 62.1, "paymentMethod": "Card", "note": "Team lunch", "recurring": false },
+    { "id": "e16", "date": "2026-10-18", "vendor": "Brickell Coffee Demo", "categoryId": "cat5", "amount": 38.4, "paymentMethod": "Cash", "note": "Coffee with a client", "recurring": false },
+    { "id": "e17", "date": "2026-10-22", "vendor": "Social Boost Example", "categoryId": "cat4", "amount": 180, "paymentMethod": "Card", "note": "Post boosts", "recurring": false },
+    { "id": "e18", "date": "2026-10-25", "vendor": "Sunset Rideshare Demo", "categoryId": "cat7", "amount": 85, "paymentMethod": "Card", "note": "Ride to a client", "recurring": false },
+    { "id": "e29", "date": "2026-10-27", "vendor": "sunrise office supply", "categoryId": "cat6", "amount": 41.15, "paymentMethod": "Card", "note": "Tape and stamps", "recurring": false },
+    { "id": "e19", "date": "2026-11-01", "vendor": "Palm Court Property Demo", "categoryId": "cat2", "amount": 1500, "paymentMethod": "Bank transfer", "note": "November rent", "recurring": true },
+    { "id": "e20", "date": "2026-11-03", "vendor": "Cloud Hosting Co", "categoryId": "cat1", "amount": 89.99, "paymentMethod": "Card", "note": "Server plan", "recurring": true },
+    { "id": "e21", "date": "2026-11-05", "vendor": "Sunrise Office Supply", "categoryId": "cat6", "amount": 96.2, "paymentMethod": "Card", "note": "Shipping boxes", "recurring": false },
+    { "id": "e22", "date": "2026-11-10", "vendor": "Fake Payroll Services", "categoryId": "cat3", "amount": 2950, "paymentMethod": "Bank transfer", "note": "Two part-time workers", "recurring": true }
+  ]
+}

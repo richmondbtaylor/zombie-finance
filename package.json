@@ -1,0 +1,22 @@
+{
+  "name": "zombie-finance",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A half-built copy of QuickBooks-style money management (invoices, expenses, budgets, reports) for the AI Builders zombie hackathon. Bring it back to life.",
+  "scripts": {
+    "dev": "next dev -p 3107",
+    "build": "next build",
+    "start": "next start -p 3107"
+  },
+  "dependencies": {
+    "next": "16.4.3",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "typescript": "^5"
+  }
+}
